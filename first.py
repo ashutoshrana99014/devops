@@ -1,3 +1,4 @@
+#demo to git
 def firstcode(sum,n):
     for i in range(n):
         sum += i
