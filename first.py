@@ -16,4 +16,13 @@ def secondcode(sub,n):
 '''
 this is a function to calculate the subtraction of first n numbers
 '''
-print("Subtraction of first 5 numbers is:",secondcode(0,5)) 
+print("Subtraction of first 5 numbers is:",secondcode(0,5))
+
+      
+def thirdcode(mul,n):
+    for i in range(n):
+        mul *= i
+    return mul
+'''this is a function to calculate the multiplication of first n numbers
+'''
+ 
